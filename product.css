@@ -1,0 +1,138 @@
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 4%;
+}
+#email{
+    margin-left: 41.5%;
+    margin-top: 1%;
+    height: 30px;
+    width: 300px;
+
+}
+#nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+  }
+#submit{
+    height: 30px;
+    width: 150px;
+    background-color: #ffbb00;
+    color: black;
+    font-size: 15px;
+    border: 1px solid ffbb00 ;
+    margin-left: 47%;
+    margin-top: 2%;
+
+}
+#v{
+    padding-top: 6%;
+    margin-left: 39%;
+}
+i{
+    width: 90px;
+    height: 50px;
+    margin-left: 24%;
+    margin-top:1%;
+}
+span{
+   font-size: 30px;
+   margin-bottom: 1%;
+   padding-bottom: 1%;
+   margin-bottom: 0%;
+}
+p{
+    margin-left:32.3% ;
+    font-size: 20px;
+    margin-top: 0%;
+    padding-top: 1%;
+    position: relative;
+    width: 60%;
+}
+video{
+    margin-left: 33%;
+    margin-top: 6%;
+}
+.flex-container{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.tt{
+    background-color: lightgray;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 1px;
+    padding-bottom: 5px;  
+}
+.y{
+    width: 360px;
+    height: 360px;
+    border: 1px solid black;
+}
+#button{
+    width: 70px;
+    height: 30px;
+    background-color: #ffbb00;
+    border: 1px solid #ffbb00;
+    margin-left: 40%;
+}
+#foot{
+    height: 70px;
+    width: 100%;
+    background-color: lightgray;
+    margin-top: 90px;
+    padding-top: 7px;
+}
+#foot span{
+    padding-right: 20px;
+    font-size: larger;
+}
+#foot p{
+    margin-left: 79%;
+}
+#u{
+    margin-left: 83%;
+
+}
+#cs{
+    margin-left:70%;
+}
+@media screen and (max-width:800px){
+    .flex-container{
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 30%;
+    }
+    video{
+        margin-left: 15%;
+
+    }
+    #email{
+        margin-left: 37%;
+    }
+    #v{
+        margin-left: 32%;
+    }
+    #u{
+        margin-left: 65%;
+    }
+    #cs{
+        margin-left: 53%;
+    }
+    #foot p{
+        margin-left:58% ;
+    }
+    
+    
+    
+}

@@ -1,0 +1,117 @@
+.image{
+    opacity: 0.5;
+    background-repeat: no-repeat;
+
+}
+.dark{
+    height: 800px;
+    width: 38vw;
+    position:absolute ;
+    background-color: rgb(238, 211, 141);
+    left: 32.5vw;
+    top:20vh;
+}
+#survey-form{
+    left: 3vw;
+    top: 4vh;
+    position: relative;
+}
+#title{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: Tahoma, Verdana, sans-serif;
+    opacity: 1;
+    left: 2vw;
+}
+#description{
+    top: 2vh;
+    text-align: center;
+    font-family:'Charm', cursive; 
+    position: relative;
+    opacity: 1;
+    left: 2vw;
+}
+.name{
+    position: relative;
+    font-size: 23px;
+    left: 15px;
+}
+#name{
+    position: relative;
+    top: 3px;
+    height: 30px;
+  
+}
+#email{
+    position: relative;
+    top: 3px;
+    height: 30px;
+  
+    
+}
+.email{
+    position: relative;
+    top: 15px;
+    font-size: 23px;
+    left: 15px;
+}
+.number{
+    position: relative;
+    top: 30px;
+    font-size: 23px;
+    left: 15px;
+    
+}
+#number{
+    position: relative;
+    top: 3px;
+   
+    height: 30px;
+}
+.which{
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    left: 15px;
+}
+.would{
+    position: relative;
+    left: 15px;
+    top: 65px;
+    font-size: 20px;
+    bottom: 4px;
+}
+.what{
+    position: relative;
+    top: 80px;
+    font-size: 20px;
+    left: 15px;
+
+}
+.that{
+    position: relative;
+    left: 15px;
+    top: 95px;
+    font-size: 20px;
+    bottom: 4px;
+
+}
+.any{
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+    left: 15px;
+ 
+}
+#submit{
+    position: relative;
+    top: 125px;
+    left: 15px;
+    background-color: rgb(43, 174, 29);
+    text-align: center;
+    font-color: black;
+    width: 400px;
+    height: 47px;
+    border: 1px solid rgb(43, 174, 29) ;
+}
